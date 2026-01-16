@@ -19,7 +19,7 @@ const Hero = () => {
             />
             <motion.path
               d="M0,350 Q300,250 600,350 T1200,350 L1200,600 L0,600 Z"
-              fill="rgba(74, 124, 89, 0.08)"
+              fill="rgba(58, 90, 138, 0.08)"
               initial={{ pathLength: 0, opacity: 0 }}
               animate={{ pathLength: 1, opacity: 1 }}
               transition={{ duration: 2, delay: 0.3, ease: "easeInOut" }}

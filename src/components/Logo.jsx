@@ -16,12 +16,12 @@ const Logo = ({ size = 60, className = '' }) => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        {/* Professional SATYAH logo - Rich Silver/Charcoal with refined emerald */}
+        {/* Professional SATYAH logo - Navy Blue with steel blue accents */}
         <motion.circle
           cx="50"
           cy="50"
           r="38"
-          stroke="var(--color-metallic)"
+          stroke="var(--color-steel-blue)"
           strokeWidth="2"
           fill="none"
           initial={{ pathLength: 0 }}
@@ -30,7 +30,7 @@ const Logo = ({ size = 60, className = '' }) => {
         />
         <motion.path
           d="M 30 50 L 50 30 L 70 50 L 50 70 Z"
-          stroke="var(--color-charcoal)"
+          stroke="var(--color-navy)"
           strokeWidth="2.5"
           fill="none"
           initial={{ pathLength: 0 }}
@@ -41,7 +41,7 @@ const Logo = ({ size = 60, className = '' }) => {
           cx="50"
           cy="50"
           r="6"
-          fill="var(--color-emerald)"
+          fill="var(--color-professional-blue)"
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ duration: 0.5, delay: 0.6, ease: [0.19, 1, 0.22, 1] }}
@@ -51,7 +51,7 @@ const Logo = ({ size = 60, className = '' }) => {
           cx="50"
           cy="20"
           r="2.5"
-          fill="var(--color-emerald)"
+          fill="var(--color-professional-blue)"
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ duration: 0.3, delay: 0.8, ease: [0.19, 1, 0.22, 1] }}
@@ -60,7 +60,7 @@ const Logo = ({ size = 60, className = '' }) => {
           cx="80"
           cy="50"
           r="2.5"
-          fill="var(--color-emerald)"
+          fill="var(--color-professional-blue)"
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ duration: 0.3, delay: 0.9, ease: [0.19, 1, 0.22, 1] }}
@@ -69,7 +69,7 @@ const Logo = ({ size = 60, className = '' }) => {
           cx="50"
           cy="80"
           r="2.5"
-          fill="var(--color-emerald)"
+          fill="var(--color-professional-blue)"
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ duration: 0.3, delay: 1, ease: [0.19, 1, 0.22, 1] }}
@@ -78,7 +78,7 @@ const Logo = ({ size = 60, className = '' }) => {
           cx="20"
           cy="50"
           r="2.5"
-          fill="var(--color-emerald)"
+          fill="var(--color-professional-blue)"
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ duration: 0.3, delay: 1.1, ease: [0.19, 1, 0.22, 1] }}

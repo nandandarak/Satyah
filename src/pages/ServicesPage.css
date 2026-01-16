@@ -34,7 +34,7 @@
 
 .detailed-service-card:hover {
   box-shadow: var(--shadow-glow);
-  border-color: var(--color-emerald);
+  border-color: var(--color-professional-blue);
 }
 
 .service-header {
@@ -55,14 +55,14 @@
 
 .service-title-large {
   font-size: 2rem;
-  color: var(--color-charcoal);
+  color: var(--color-navy);
   margin-bottom: var(--spacing-sm);
   font-weight: 600;
   transition: color var(--transition-theme);
 }
 
 [data-theme="dark"] .service-title-large {
-  color: var(--color-silver);
+  color: var(--color-steel-blue);
 }
 
 .service-description-large {
@@ -105,13 +105,13 @@
   content: '✓';
   position: absolute;
   left: 0;
-  color: var(--color-emerald);
+  color: var(--color-professional-blue);
   font-weight: bold;
   font-size: 1.2rem;
 }
 
 .services-cta {
-  background: linear-gradient(135deg, var(--color-charcoal) 0%, var(--color-emerald) 100%);
+  background: linear-gradient(135deg, var(--color-navy) 0%, var(--color-professional-blue) 100%);
   color: white;
   text-align: center;
   padding: var(--spacing-2xl) 0;
@@ -140,8 +140,8 @@
   padding: 1.2rem 3rem;
   font-size: 1.2rem;
   font-weight: 600;
-  color: var(--color-charcoal);
-  background: white;
+  color: var(--color-navy);
+  background: var(--color-bg-secondary);
   border-radius: 50px;
   box-shadow: var(--shadow-lg);
   transition: all var(--transition-base);

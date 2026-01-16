@@ -1,13 +1,13 @@
 .footer {
-  background: var(--color-charcoal);
-  color: var(--color-silver);
+  background: var(--color-navy);
+  color: var(--color-steel-blue);
   padding: var(--spacing-xl) 0 var(--spacing-md);
   margin-top: var(--spacing-2xl);
   transition: background-color var(--transition-theme);
 }
 
 [data-theme="dark"] .footer {
-  background: var(--color-charcoal-dark);
+  background: var(--color-navy-dark);
 }
 
 .footer-content {
@@ -30,7 +30,7 @@
   font-family: var(--font-display);
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--color-silver);
+  color: var(--color-steel-blue);
   margin-bottom: var(--spacing-sm);
   background: none;
   border: none;
@@ -49,7 +49,7 @@
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: var(--spacing-xs);
-  color: var(--color-silver);
+  color: var(--color-steel-blue);
 }
 
 .footer-links {
@@ -73,14 +73,14 @@
 
 .footer-links a:hover,
 .footer-links button:hover {
-  color: var(--color-emerald-light);
+  color: var(--color-cyan-blue-light);
   padding-left: 6px;
   transition: color var(--transition-fast), padding-left var(--transition-fast);
 }
 
 [data-theme="dark"] .footer-links a:hover,
 [data-theme="dark"] .footer-links button:hover {
-  color: var(--color-emerald-light);
+  color: var(--color-cyan-blue-light);
 }
 
 .footer-contact {
@@ -106,19 +106,19 @@
   justify-content: center;
   border-radius: 50%;
   background: rgba(192, 192, 192, 0.1);
-  color: var(--color-silver);
+  color: var(--color-steel-blue);
   transition: all var(--transition-fast);
 }
 
 .social-icon:hover {
-  background: var(--color-emerald);
+  background: var(--color-professional-blue);
   transform: translateY(-3px) scale(1.1);
-  box-shadow: 0 4px 12px rgba(74, 124, 89, 0.4);
+  box-shadow: 0 4px 12px rgba(58, 90, 138, 0.4);
 }
 
 [data-theme="dark"] .social-icon:hover {
-  background: var(--color-emerald-light);
-  box-shadow: 0 4px 16px rgba(74, 124, 89, 0.5);
+  background: var(--color-professional-blue-light);
+  box-shadow: 0 4px 16px rgba(90, 138, 154, 0.5);
 }
 
 .footer-bottom {

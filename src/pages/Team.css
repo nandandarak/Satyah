@@ -41,12 +41,12 @@
 
 .team-card:hover {
   box-shadow: var(--shadow-glow);
-  border-color: var(--color-emerald);
+  border-color: var(--color-professional-blue);
   transform: translateY(-8px) scale(1.02);
 }
 
 [data-theme="dark"] .team-card:hover {
-  box-shadow: var(--shadow-glow), 0 0 30px rgba(74, 124, 89, 0.2);
+  box-shadow: var(--shadow-glow), 0 0 30px rgba(58, 90, 138, 0.2);
   background: rgba(26, 26, 26, 0.6);
 }
 
@@ -58,7 +58,7 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--color-silver) 0%, var(--color-emerald) 100%);
+  background: linear-gradient(135deg, var(--color-steel-blue) 0%, var(--color-professional-blue) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,19 +78,19 @@
 
 .team-name {
   font-size: 1.4rem;
-  color: var(--color-charcoal);
+  color: var(--color-navy);
   margin-bottom: var(--spacing-xs);
   font-weight: 600;
   transition: color var(--transition-theme);
 }
 
 [data-theme="dark"] .team-name {
-  color: var(--color-silver);
+  color: var(--color-steel-blue);
 }
 
 .team-role {
   font-size: 1rem;
-  color: var(--color-emerald);
+  color: var(--color-professional-blue);
   margin-bottom: var(--spacing-sm);
   font-weight: 500;
 }
@@ -103,7 +103,7 @@
 }
 
 .team-cta {
-  background: linear-gradient(135deg, var(--color-charcoal) 0%, var(--color-emerald) 100%);
+  background: linear-gradient(135deg, var(--color-navy) 0%, var(--color-professional-blue) 100%);
   color: white;
   text-align: center;
   padding: var(--spacing-2xl) 0;
@@ -132,8 +132,8 @@
   padding: 1.2rem 3rem;
   font-size: 1.2rem;
   font-weight: 600;
-  color: var(--color-charcoal);
-  background: white;
+  color: var(--color-navy);
+  background: var(--color-bg-secondary);
   border-radius: 50px;
   box-shadow: var(--shadow-lg);
   transition: all var(--transition-base);

@@ -65,11 +65,11 @@ const ThemeToggle = () => {
         className="theme-toggle-button"
         animate={{
           backgroundColor: isDark 
-            ? 'var(--color-charcoal-light)' 
-            : 'var(--color-pearl)',
+            ? 'var(--color-navy-light)' 
+            : 'var(--color-off-white)',
           borderColor: isDark 
-            ? 'var(--color-emerald)' 
-            : 'var(--color-metallic)',
+            ? 'var(--color-cyan-blue)' 
+            : 'var(--color-steel-blue)',
         }}
         transition={{ duration: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }}
       >

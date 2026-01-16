@@ -27,22 +27,22 @@
   font-family: var(--font-display);
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--color-charcoal);
+  color: var(--color-navy);
   transition: transform var(--transition-fast), color var(--transition-theme);
 }
 
 [data-theme="dark"] .nav-logo {
-  color: var(--color-silver);
+  color: var(--color-off-white);
 }
 
 .nav-logo:hover {
   transform: scale(1.05);
-  color: var(--color-emerald);
+  color: var(--color-professional-blue);
   transition: transform var(--transition-fast), color var(--transition-fast);
 }
 
 [data-theme="dark"] .nav-logo:hover {
-  color: var(--color-emerald-light);
+  color: var(--color-cyan-blue-light);
 }
 
 .logo-text {
@@ -87,7 +87,7 @@
   display: block;
   height: 2.5px;
   width: 24px;
-  background: var(--color-charcoal);
+  background: var(--color-navy);
   border-radius: 2px;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   transform-origin: center;
@@ -95,7 +95,7 @@
 }
 
 [data-theme="dark"] .hamburger span {
-  background: var(--color-silver);
+  background: var(--color-steel-blue);
 }
 
 .hamburger.active {
@@ -119,11 +119,11 @@
 }
 
 .hamburger:hover span {
-  background: var(--color-emerald);
+  background: var(--color-professional-blue);
 }
 
 .hamburger.active:hover span {
-  background: var(--color-emerald);
+  background: var(--color-professional-blue);
 }
 
 /* Menu Overlay */
@@ -191,7 +191,7 @@
 
 .menu-link:hover .menu-link-text,
 .menu-link.active .menu-link-text {
-  color: var(--color-emerald);
+  color: var(--color-professional-blue);
 }
 
 .menu-link-indicator {
@@ -200,7 +200,7 @@
   left: 0;
   width: 100%;
   height: 2px;
-  background: var(--color-emerald);
+  background: var(--color-professional-blue);
   transform-origin: left;
 }
 

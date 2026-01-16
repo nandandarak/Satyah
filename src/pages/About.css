@@ -33,13 +33,13 @@
 
 .section-heading {
   font-size: clamp(2rem, 4vw, 2.5rem);
-  color: var(--color-charcoal);
+  color: var(--color-navy);
   margin-bottom: var(--spacing-md);
   transition: color var(--transition-theme);
 }
 
 [data-theme="dark"] .section-heading {
-  color: var(--color-silver);
+  color: var(--color-steel-blue);
 }
 
 .mission-paragraph {
@@ -58,7 +58,7 @@
 .image-placeholder {
   width: 100%;
   aspect-ratio: 4/3;
-  background: linear-gradient(135deg, var(--color-silver) 0%, var(--color-emerald) 100%);
+  background: linear-gradient(135deg, var(--color-steel-blue) 0%, var(--color-professional-blue) 100%);
   border-radius: 16px;
   display: flex;
   align-items: center;
@@ -112,12 +112,12 @@
 
 .value-card:hover {
   box-shadow: var(--shadow-glow);
-  border-color: var(--color-emerald);
+  border-color: var(--color-professional-blue);
   transform: translateY(-8px) scale(1.02);
 }
 
 [data-theme="dark"] .value-card:hover {
-  box-shadow: var(--shadow-glow), 0 0 30px rgba(74, 124, 89, 0.2);
+  box-shadow: var(--shadow-glow), 0 0 30px rgba(58, 90, 138, 0.2);
   background: rgba(26, 26, 26, 0.6);
 }
 
@@ -128,14 +128,14 @@
 
 .value-title {
   font-size: 1.3rem;
-  color: var(--color-charcoal);
+  color: var(--color-navy);
   margin-bottom: var(--spacing-sm);
   font-weight: 600;
   transition: color var(--transition-theme);
 }
 
 [data-theme="dark"] .value-title {
-  color: var(--color-silver);
+  color: var(--color-steel-blue);
 }
 
 .value-description {
